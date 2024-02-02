@@ -38,7 +38,7 @@ function App() {
   }
 
   const handleDeleteBtn = (id, ele) => {
-    console.log("Deleting.....", ele, "of index", id)
+    // console.log("Deleting.....", ele, "of index", id)
 
     let deletedTodo = storeArray.filter((element, index) => {
       return index != id;

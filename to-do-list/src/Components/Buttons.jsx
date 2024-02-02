@@ -1,7 +1,7 @@
 import '../App.css'
 
 function Buttons(props) {
-    console.log(props)
+    // console.log(props)
 
     let storeArray = props.data
     let handleUpdate = props.updateBtn
